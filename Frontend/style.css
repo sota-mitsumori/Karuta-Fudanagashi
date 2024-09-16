@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-image: url("images/karuta_scene_4k.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
+}
+
+.container2{
+    padding: 5rem;
+}
+
+h1{
+    color: red;
+}
