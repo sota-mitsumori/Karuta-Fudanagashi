@@ -11,13 +11,19 @@
     height: 100vh;
     width: 100vw;
     align-content: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
+    display: block;
 }
 
-.container2{
-    padding: 5rem;
+.download{
+    border-radius: 10px;
 }
 
-h1{
-    color: red;
+.titleText{
+    h1{
+        color: red;
+    }
+    p{
+        color: white;
+    }
 }
