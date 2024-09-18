@@ -15,6 +15,13 @@
     display: block;
 }
 
+.appShowcase{
+    img{
+        height: 600px;
+        align-self: right;
+    }
+}
+
 .download{
     border-radius: 10px;
 }
