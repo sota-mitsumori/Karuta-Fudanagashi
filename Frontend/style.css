@@ -18,7 +18,7 @@
 .appShowcase{
     img{
         height: 600px;
-        align-self: right;
+        align-self: auto;
     }
 }
 
