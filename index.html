@@ -6,30 +6,117 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Frontend/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Karuta App</title>
 </head>
 
 <body>
     <section id="Hero">
-        <div id="container2">
-            <div class="titleText">
-                <h1>フラッシュかるた</h1>
-                <p>百人一首を高速で表示させるタイムアタックゲーム！時間を測って友達と競おう！</p>
-                <button class="download">Download</button>
-            </div>
-            <div class="appShowcase">
-                <img src="/Frontend/images/app_image.png" alt="">
+        <div class="container2">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="./Frontend/images/app_image.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" id="titleText">ふだながし</h1>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section id="info">
-        <div class="container">
-            <div class="text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis">概要と目的</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">競技かるたにおいて、札流しをすることは自身のパワーの強化につながります。このゲームをプレイすることで札流しのスピードを磨くことができます。このゲームの目標は百人一首の取り札全てをできるだけ早くスワイプするタイムアタックゲームです。</p>
             </div>
         </div>
+        <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">プレイ方法</h2>
+
+        <div class="row row-cols-1 row-cols-lg-4 g-4 py-5">
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">札をスワイプ</h3>
+                    <p>実際のかるた札とおなじように、札をすきな方向にスワイプすることで次の札に進めます。</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">ランダム上下反転</h3>
+                    <p>設定でこれを有効、無効にすることで、ゲームをよりチャレンジングにすることができます。</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">タイマー</h3>
+                    <p>タイマーはあなたが１００枚のふだ流しにかかる時間を表示します。</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">ベストスコア</h3>
+                    <p>あなたのベストスコアは記録され、ホーム画面に表示されます。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="footer">
+        <footer class="container py-5">
+            <hr>
+            <div class="row">
+                <div class="col-12 col-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+                    <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </section>
 <script src="Frontend/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
