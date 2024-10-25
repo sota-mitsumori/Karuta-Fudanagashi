@@ -23,10 +23,11 @@
 }
 
 .container2 img {
-    position: absolute; /* Add this line */
-    bottom: 0; /* Add this line */
-    right: 10%; /* Optional: Center horizontally */
-    transform: none; /* Optional: Center horizontally */
-    width: 600px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    transform: none;
+    width: 50%;
     height: auto;
+    max-width: 600px;
 }
