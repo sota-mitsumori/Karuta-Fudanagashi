@@ -1,0 +1,747 @@
+{
+  "sourceLanguage" : "ja",
+  "strings" : {
+    "**ようこそ、札流しへ！**\n\n<目的>\nこのゲームの目標は百人一首の取り札全てをできるだけ早くスワイプするタイムアタックゲームです。\n\n<プレイ方法>\n- **札をスワイプ**:\n    実際のかるた札とおなじように、札をすきな方向にスワイプすることで次の札に進めます。\n\n- **ランダム上下反転**: \n    設定でこれを有効、無効にすることで、ゲームをよりチャレンジングにすることができます。\n\n- **タイマー**: \n    タイマーはあなたが１００枚のふだ流しにかかる時間を表示します。\n\n- **ベストスコア**: \n    あなたのベストスコアは記録され、ホーム画面に表示されます。\n\n***楽しんでプレイしてみてください!!***" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Welcome to Fudanagashi！**\n\n<Purpose>\nThe goal of this game is to swipe the Karuta cards as fast as you can.\n\n<How to play>\n- **Swipe the cards**:\n    Swipe the cards to any direction as you do it with the real Karuta cards\n\n- **Random Cards Rotation**: \n    By enabling and disabling this setting, you can make the game more challenging.\n\n- **Timer**: \n    The timer displays the time it takes for you to flush 100 Karuta cards\n\n- **Best Score**: \n    Your best score is recorded and will be displayed on the home screen. \n\n***Have fun and enjoy!!***"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**¡Bienvenido a Fudanagashi!**\n\n<Propósito>\nEl objetivo de este juego es deslizar las cartas de Karuta lo más rápido posible.\n\n<Cómo jugar>\n\n\t-**Desliza las cartas**:\nDesliza las cartas en cualquier dirección, como lo harías con las cartas reales de Karuta.\n\n\t-**Rotación aleatoria de cartas**:\nAl habilitar o deshabilitar esta configuración, puedes hacer el juego más desafiante.\n\n\t-**Temporizador**:\nEl temporizador muestra el tiempo que tardas en retirar 100 cartas de Karuta.\n\n\t-**Mejor puntuación**:\nTu mejor puntuación se registra y se mostrará en la pantalla de inicio.\n\n***¡Diviértete y disfruta!***"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Bienvenue à Fudanagashi！**\n\n<Objetif>\nLe but de ce jeu est de balayer les cartes de Karuta le plus rapidement possible.\n\n<Mode d’emploi>\n\t-**Balayer les cartes** :\nBalayez les cartes dans n’importe quelle direction, comme vous le feriez avec de vraies cartes de Karuta.\n\t-**Rotation aléatoire des cartes** :\nEn activant ou désactivant cette option, vous pouvez rendre le jeu plus difficile.\n\t-**Chronomètre** :\nLe chronomètre affiche le temps qu’il vous faut pour balayer 100 cartes de Karuta.\n\t-**Meilleur score** :\nVotre meilleur score est enregistré et sera affiché sur l’écran d’accueil.\n\n***Amusez-vous et profitez-en !***"
+          }
+        }
+      }
+    },
+    "best_score" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Best Score!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Nueva mejor puntuación!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveau Meilleur score!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ベストスコア更新！"
+          }
+        }
+      }
+    },
+    "cards_left_format" : {
+      "comment" : "Format string for cards left",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Card Left: %d"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cards Left: %d"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Carta \nRestante: %d"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cartas \nRestantes: %d"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Carte\nRestante: %d"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cartes\nRestantes: %d"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残り: %d枚"
+          }
+        }
+      }
+    },
+    "elapsed_time_format" : {
+      "comment" : "Format string for elapsed time",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time: %.2f s"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo: %.2fs"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temps: %.2f s"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "経過時間:%.2f秒"
+          }
+        }
+      }
+    },
+    "game_clear_message_best" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@\n%2$@\n%3$@"
+          }
+        }
+      }
+    },
+    "game_clear_message_try_again" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@\n%2$@\n%3$@"
+          }
+        }
+      }
+    },
+    "game_clear_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Completado!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fini!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クリア！"
+          }
+        }
+      }
+    },
+    "time_elapsed" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time: %@s"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo: %@s"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temps: %@s"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間: %@秒"
+          }
+        }
+      }
+    },
+    "try_again" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jugar de nuevo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommencer!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もう一回挑戦だ！"
+          }
+        }
+      }
+    },
+    "Version 1.1.1 (2024.11.10)" : {
+
+    },
+    "カードのランダム上下反転" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Random Card Rotation"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotación aleatoria de las cartas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotation aléatoire des cartes"
+          }
+        }
+      }
+    },
+    "かるた取り札画像:\nhttp://100poem.web.fc2.com/\n\n開発者： **三森颯太, 大戸暢丈**, 2024.\n                    \n<<連絡先と公式HP>>\n- **メール**: sota.mitsumori@gmail.com\n- **ホームページ**: https://sota-mitsumori.github.io/Karuta-Fudanagashi/" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Card Images:\nhttp://100poem.web.fc2.com/\n\nDeveloped by **Sota Mitsumori, Nobuhiro Oto**, 2024.\n                    \n<<Get in Touch>>\n- **Email**: sota.mitsumori@gmail.com\n- **Website**: https://sota-mitsumori.github.io/Karuta-Fudanagashi/"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Images des cartes :\nhttp://100poem.web.fc2.com/\n\nDéveloppé par: **Sota Mitsumori, Nobuhiro Oto**, 2024.\n\n<<Contact>>\n-**E-mail** : sota.mitsumori@gmail.com\n-**Site web** : https://sota-mitsumori.github.io/Karuta-Fudanagashi/\n"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Images des cartes :\nhttp://100poem.web.fc2.com/\n\nDéveloppé par: **Sota Mitsumori, Nobuhiro Oto**, 2024.\n\n<<Contact>>\n-**E-mail** : sota.mitsumori@gmail.com\n-**Site web** : https://sota-mitsumori.github.io/Karuta-Fudanagashi/\n"
+          }
+        }
+      }
+    },
+    "キャンセル" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        }
+      }
+    },
+    "さあゲームに挑戦だ！" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Challenge Starts Now"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Ahora, a desafiar el juego!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le défi commence maintenant"
+          }
+        }
+      }
+    },
+    "スタート" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jugar!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jouer"
+          }
+        }
+      }
+    },
+    "デベロッパーとクレジット" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About the Developer and Credit"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desarrolladores y Créditos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Développeur et Crédit"
+          }
+        }
+      }
+    },
+    "バージョン" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
+      }
+    },
+    "プレイ方法" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How to play"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo Jugar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment jouer"
+          }
+        }
+      }
+    },
+    "ベストスコア: %@秒" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best Score: %@s"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejor puntuación: %@ s"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meilleur score: %@s"
+          }
+        }
+      }
+    },
+    "ベストスコアリセット" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset best score"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer mejor puntuación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser le meilleur score"
+          }
+        }
+      }
+    },
+    "ベストスコアをリセット" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset best score"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer mejor puntuación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser le meilleur score"
+          }
+        }
+      }
+    },
+    "ベストスコアをリセットしますか？" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you want to reset the best score?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Deseas restablecer la mejor puntuación?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voulez-vous réinitialiser le meilleur score"
+          }
+        }
+      }
+    },
+    "ホームへ" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        }
+      }
+    },
+    "もう一回" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restart"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otra vez"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rejouer"
+          }
+        }
+      }
+    },
+    "リセット" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "réinitialiser"
+          }
+        }
+      }
+    },
+    "時間:" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo: "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temps: "
+          }
+        }
+      }
+    },
+    "札の表示" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cards Display"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar cartas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affichage des cartes"
+          }
+        }
+      }
+    },
+    "概要" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resumen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        }
+      }
+    },
+    "百人一首札流し" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fudanagashi"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fudanagashi"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fudanagashi"
+          }
+        }
+      }
+    },
+    "終了" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finalizar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fait"
+          }
+        }
+      }
+    },
+    "記録リセット" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset best score"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer registros"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser le meilleur score"
+          }
+        }
+      }
+    },
+    "設定" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

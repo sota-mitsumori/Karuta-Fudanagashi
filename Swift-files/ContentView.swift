@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var viewModel = CardGameViewModel()
     @State private var showSettings = false
+    @State private var showAbout = false
     
     var body: some View {
         NavigationView {
@@ -14,6 +15,14 @@ struct ContentView: View {
                     if viewModel.startTime == nil || viewModel.endTime != nil {
                         ToolbarItem(placement: .navigationBarTrailing) {
                             Button(action: {
+                                self.showAbout = true
+                            }) {
+                                Image(systemName: "questionmark.circle")
+                                    .imageScale(.large)
+                            }
+                        }
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            Button(action: {
                                 self.showSettings = true
                             }) {
                                 Image(systemName: "gearshape")
@@ -23,9 +32,14 @@ struct ContentView: View {
                     }
                 }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
         .sheet(isPresented: $showSettings) {
             SettingsView(viewModel: viewModel)
         }
+        .sheet(isPresented: $showAbout) {
+            AboutView()
+        }
+    
     }
 }
         

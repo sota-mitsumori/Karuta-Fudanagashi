@@ -11,6 +11,9 @@ struct SettingsView: View {
             Form {
                 Section(header: Text("札の表示")) {
                     Toggle("カードのランダム上下反転", isOn: $randomRotation)
+                        .onChange(of: randomRotation) { _ in
+                                            viewModel.loadImages()
+                    }
                 }
                 Section(header: Text("ベストスコアリセット")) {
                     Button(action: {
@@ -30,6 +33,9 @@ struct SettingsView: View {
                             secondaryButton: .cancel(Text("キャンセル"))
                         )
                     }
+                }
+                Section(header: Text("バージョン")) {
+                    Text("Version 1.1.1 (2024.11.10)")
                 }
             }
             .navigationBarTitle("設定", displayMode: .inline)
